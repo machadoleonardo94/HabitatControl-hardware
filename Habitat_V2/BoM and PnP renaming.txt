@@ -1,0 +1,7 @@
+Separador , e não ;
+
+"RefDes" to "Designator"
+"Value" to "Comment"
+"Pattern" to "Footprint"
+"Center X (mm)" to "Mid X"
+"Center Y (mm)" to "Mid Y"
