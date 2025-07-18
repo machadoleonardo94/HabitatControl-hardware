@@ -1,4 +1,4 @@
-24807786810801620
+24809539607477538
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65960,6 +65960,13 @@ Through hole pin header THT 1x07 2.54mm single row
 0
 7
 7
+Library
+RTC
+
+
+0
+5
+5
 Library
 SIM7670SA
 Through hole straight pin header, 1x07, 2.54mm pitch, single row
