@@ -7994,6 +7994,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 138.43) (xy 132.08 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772ff523-3b24-4f75-b9ea-3c6286e69e93")
+	)
+	(wire
+		(pts
 			(xy 78.74 232.41) (xy 92.71 232.41)
 		)
 		(stroke
@@ -10167,6 +10177,46 @@
 		)
 		(uuid "2e2a26a4-b060-4b5a-879d-999f7630b797")
 	)
+	(text "220mR\n705mA"
+		(exclude_from_sim no)
+		(at 96.012 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ddfeb23-bce7-4e9e-a988-60542ef69ce5")
+	)
+	(text "250mR\n620mA"
+		(exclude_from_sim no)
+		(at 97.028 241.808 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "572e8a06-89b4-40cd-a15a-98080b4318b4")
+	)
+	(text "250mR\n620mA"
+		(exclude_from_sim no)
+		(at 96.52 189.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7449700b-b7f1-4829-9902-040a1b5492ed")
+	)
+	(text "250mR\n620mA"
+		(exclude_from_sim no)
+		(at 96.52 215.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a921281-b893-4dc2-ae28-829b43932977")
+	)
 	(text "Status LED"
 		(exclude_from_sim no)
 		(at 173.99 17.78 0)
@@ -10176,6 +10226,16 @@
 			)
 		)
 		(uuid "7d5a9657-076a-41a5-a8a2-9eedae4c3c44")
+	)
+	(text "220mR\n705mA"
+		(exclude_from_sim no)
+		(at 96.52 137.922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e063c29-8dbb-4c5e-8833-b145c7e5fdb7")
 	)
 	(text "ESP32-S3-Wroom"
 		(exclude_from_sim no)
@@ -10237,6 +10297,16 @@
 		)
 		(uuid "d047f86c-cf8d-4dbc-a757-a5f083710bc1")
 	)
+	(text "220mR\n705mA"
+		(exclude_from_sim no)
+		(at 96.266 162.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4d24a9b-649c-4202-b9ac-91be1604de77")
+	)
 	(text "Voltage regulation"
 		(exclude_from_sim no)
 		(at 53.594 17.78 0)
@@ -10246,6 +10316,16 @@
 			)
 		)
 		(uuid "dc71860d-868b-47d8-a5c3-f70b1bfa6420")
+	)
+	(text "Vref=0.155V"
+		(exclude_from_sim no)
+		(at 76.962 121.666 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f17ce616-f44c-4851-83db-fba6142400c6")
 	)
 	(text "Opto"
 		(exclude_from_sim no)
@@ -11315,7 +11395,7 @@
 	)
 	(global_label "Neopixel"
 		(shape input)
-		(at 129.54 133.35 180)
+		(at 130.81 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11325,7 +11405,7 @@
 		)
 		(uuid "c94d42cf-96b4-4897-8ee9-923ff7ead00f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.451 133.35 0)
+			(at 119.721 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14246,7 +14326,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C111857"
+		(property "LCSC" "C2683384"
 			(at 90.17 241.3 90)
 			(effects
 				(font
@@ -16889,7 +16969,7 @@
 				)
 			)
 		)
-		(property "Value" "0R22"
+		(property "Value" "0R25"
 			(at 87.884 189.23 90)
 			(effects
 				(font
@@ -16924,7 +17004,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C111857"
+		(property "LCSC" "C2932845"
 			(at 90.17 189.23 90)
 			(effects
 				(font
@@ -20320,7 +20400,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C111857"
+		(property "LCSC" "C2683384"
 			(at 90.17 110.49 90)
 			(effects
 				(font
@@ -24188,7 +24268,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C111857"
+		(property "LCSC" "C2683384"
 			(at 90.17 214.63 90)
 			(effects
 				(font
@@ -25877,8 +25957,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 170.18 231.14 0)
-		(mirror y)
+		(at 170.18 231.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25886,7 +25965,7 @@
 		(dnp no)
 		(uuid "c1628b67-172a-45b2-b9ca-98300a42663b")
 		(property "Reference" "J5"
-			(at 173.228 224.282 0)
+			(at 170.688 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25895,7 +25974,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 168.91 232.4099 0)
+			(at 168.91 229.8701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27832,7 +27911,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C111857"
+		(property "LCSC" "C2683384"
 			(at 90.17 137.16 90)
 			(effects
 				(font
@@ -28814,7 +28893,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C111857"
+		(property "LCSC" "C2683384"
 			(at 90.17 162.56 90)
 			(effects
 				(font
