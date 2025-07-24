@@ -7994,16 +7994,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 138.43) (xy 132.08 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "772ff523-3b24-4f75-b9ea-3c6286e69e93")
-	)
-	(wire
-		(pts
 			(xy 78.74 232.41) (xy 92.71 232.41)
 		)
 		(stroke
@@ -10157,6 +10147,16 @@
 		)
 		(uuid ff6a9453-8cf6-4380-a5bf-89f34d32b31b)
 	)
+	(text "250mR\n620mA"
+		(exclude_from_sim no)
+		(at 96.266 163.068 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03a0cb6f-901c-4688-a2a7-6a4fd569ae94")
+	)
 	(text "WLED"
 		(exclude_from_sim no)
 		(at 173.99 191.262 0)
@@ -10296,16 +10296,6 @@
 			)
 		)
 		(uuid "d047f86c-cf8d-4dbc-a757-a5f083710bc1")
-	)
-	(text "220mR\n705mA"
-		(exclude_from_sim no)
-		(at 96.266 162.814 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d4d24a9b-649c-4202-b9ac-91be1604de77")
 	)
 	(text "Voltage regulation"
 		(exclude_from_sim no)
@@ -10623,7 +10613,7 @@
 			)
 		)
 	)
-	(global_label "GPIO11"
+	(global_label "GPIO9"
 		(shape input)
 		(at 129.54 153.67 180)
 		(fields_autoplaced yes)
@@ -10635,7 +10625,7 @@
 		)
 		(uuid "30475926-c0b1-4d6b-94b6-70e3d361ef28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.6605 153.67 0)
+			(at 120.87 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10777,7 +10767,7 @@
 			)
 		)
 	)
-	(global_label "GPIO11"
+	(global_label "GPIO9"
 		(shape input)
 		(at 68.58 78.74 180)
 		(fields_autoplaced yes)
@@ -10789,7 +10779,7 @@
 		)
 		(uuid "45411409-7fbb-413b-a364-66ce23214553")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.7005 78.74 0)
+			(at 59.91 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11349,7 +11339,7 @@
 			)
 		)
 	)
-	(global_label "GPIO10"
+	(global_label "GPIO8"
 		(shape input)
 		(at 129.54 151.13 180)
 		(fields_autoplaced yes)
@@ -11361,7 +11351,7 @@
 		)
 		(uuid "c255da5e-59bc-4a1c-9a1a-ae9a403f85bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.6605 151.13 0)
+			(at 120.87 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11395,22 +11385,22 @@
 	)
 	(global_label "Neopixel"
 		(shape input)
-		(at 130.81 138.43 180)
+		(at 162.56 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c94d42cf-96b4-4897-8ee9-923ff7ead00f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.721 138.43 0)
+			(at 173.649 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11503,7 +11493,7 @@
 			)
 		)
 	)
-	(global_label "GPIO10"
+	(global_label "GPIO8"
 		(shape input)
 		(at 68.58 81.28 180)
 		(fields_autoplaced yes)
@@ -11515,7 +11505,7 @@
 		)
 		(uuid "d75d5fff-3839-4c5b-ae5c-d14696f7bc36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.7005 81.28 0)
+			(at 59.91 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14961,7 +14951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ebe5c1c-d30f-4500-9ffb-511c461eb5ac")
-		(property "Reference" "VDC2"
+		(property "Reference" "VDC1"
 			(at 105.41 67.31 0)
 			(effects
 				(font
@@ -15026,7 +15016,7 @@
 		(instances
 			(project "Habitat_V5"
 				(path "/5da8ef61-9b4a-4ae5-94b1-3a318860cb02"
-					(reference "VDC2")
+					(reference "VDC1")
 					(unit 1)
 				)
 			)
@@ -24217,163 +24207,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 90.17 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0d3f3e2-f53d-42f1-a0a3-cabeef25480e")
-		(property "Reference" "R18"
-			(at 90.17 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R22"
-			(at 87.884 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 88.392 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 90.17 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2683384"
-			(at 90.17 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ASSEMBLY" ""
-			(at 90.17 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 90.17 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 90.17 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 90.17 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 90.17 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 90.17 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 90.17 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 90.17 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 90.17 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b115121-4bcf-4272-a051-97ef9cc3d8c7")
-		)
-		(pin "2"
-			(uuid "32d702e0-e211-43ff-a837-5cced61353a3")
-		)
-		(instances
-			(project "Habitat_V5"
-				(path "/5da8ef61-9b4a-4ae5-94b1-3a318860cb02"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 62.23 49.53 0)
 		(unit 1)
@@ -25956,6 +25789,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 90.17 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0f2cea5-e2f5-4967-9454-c49844290460")
+		(property "Reference" "R18"
+			(at 90.17 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R25"
+			(at 87.884 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 88.392 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2932845"
+			(at 90.17 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 90.17 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 90.17 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 90.17 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 90.17 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 90.17 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 90.17 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 90.17 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 90.17 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 90.17 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07fcfad1-b9d3-4ad1-b005-4193b2a2dcf4")
+		)
+		(pin "2"
+			(uuid "3b6e6999-7f70-4e65-884b-0c4dac1d498a")
+		)
+		(instances
+			(project "Habitat_V5"
+				(path "/5da8ef61-9b4a-4ae5-94b1-3a318860cb02"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 170.18 231.14 180)
 		(unit 1)
@@ -26335,7 +26325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c765055c-7ccb-4fad-a618-743bd9d2de3e")
-		(property "Reference" "VDC1"
+		(property "Reference" "VDC2"
 			(at 90.678 80.518 0)
 			(effects
 				(font
@@ -26478,7 +26468,7 @@
 		(instances
 			(project "Habitat_V5"
 				(path "/5da8ef61-9b4a-4ae5-94b1-3a318860cb02"
-					(reference "VDC1")
+					(reference "VDC2")
 					(unit 1)
 				)
 			)
